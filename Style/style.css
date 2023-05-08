@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: PoppinsLight;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    line-height: 12px;
+    font-size: 38px;
+    font-weight: lighter;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+#sign_up{
+    border: 2px solid rgb(123, 14, 201);
+    padding: 12px 50px;
+    border-radius: 18px;
+}
+
+#sign_up:hover{
+    background-color: rgb(123, 14, 201);
+    transition: 0.5s;
+    padding: 12px 53px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    line-height: 10px;
+    font-size: 50px;
+    font-family: PoppinsMedium;
+}
+
+#title_subscribe{
+    color: rgb(123, 14, 201);
+}
+
+p{
+    max-width: 500px;
+    line-height: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+input{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;  
+}
+
+#button_send{
+    max-width: 50%;
+    background-color: rgb(123, 14, 201);
+    color: white;
+    font-size: 15px;
+    font-family: PoppinsMedium;
+    padding: 12px 20px;
+}
+
+#button_send:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+
